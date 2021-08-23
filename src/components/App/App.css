@@ -1,0 +1,28 @@
+@import url(../../vendor/normalize.css);
+@import url(../../vendor/fonts.css);
+
+.app {
+  text-align: center;
+  font-family: 'Helvetica neue', 'Inter', 'Arial', sans-serif;
+  color: #000;
+  background-color: #e5e5e5;
+  max-width: 100%;
+  padding: 1px;
+  min-height: 100vh;
+  position: relative;
+  margin: 0 auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+}
+
+.app__body {
+  width: 1072px;
+  margin: 189px auto 0 123px;
+}
+
+.app__content {
+  display: flex;
+}

@@ -1,0 +1,17 @@
+.list {
+  width: 874px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.list__list {
+  list-style-type: none;
+  max-width: 780px;
+  margin: 0;
+  padding-left: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  column-gap: 30px;
+  row-gap: 30px;
+}

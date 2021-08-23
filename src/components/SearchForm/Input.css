@@ -1,0 +1,16 @@
+.input {
+  width: 387px;
+  border: none;
+  border-right: 1px solid #242424;
+  border-bottom: 1px solid #242424;
+  background-color: #e5e5e5;
+  margin: 0 0 66px 0;
+  padding-bottom: 7px;
+  color: #242424;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 23px;
+  letter-spacing: 0em;
+  text-align: left;
+}

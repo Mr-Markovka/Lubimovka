@@ -1,0 +1,28 @@
+.button {
+  display: flex;
+  width: 120px;
+  border: none;
+  border-bottom: 1px solid #242424;
+  background-color: #e5e5e5;
+  margin: 0 0 66px 0;
+  padding: 0;
+}
+
+.button__img {
+  width: 25px;
+  height: 25px;
+  margin: 0 4px 7px 0;
+  background-image: url(../../images/arrow.svg);
+}
+
+.button__text {
+  margin: 0;
+  padding-top: 7px;
+  color: #242424;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 14px;
+  letter-spacing: 0em;
+  text-align: left;
+}
